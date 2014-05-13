@@ -1,3 +1,36 @@
 body {
 	text-align: center;
+	background-color: #ededed;
+	font-family: Arial, sans-serif;
+	color: #3f3f3f;
 }
+
+#header {
+	margin-bottom: 2em;
+}
+
+#logo {
+	display: block;
+	position: relative;
+	margin: auto;
+	padding: 2em;
+}
+
+#entry {
+	padding: 12px;
+	width: 300px;
+}
+
+#entry:hover, #entry:focus, button:focus {
+	outline: 0;
+}
+
+button {
+	cursor: pointer;
+	padding: 10px 10px 8px 10px;
+	background-color: #0d4c93;
+	border: 0;
+	border-bottom: 5px solid #134072;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	color: #fff;

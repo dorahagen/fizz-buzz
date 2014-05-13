@@ -10,7 +10,7 @@ $(document).ready(function() {
 			$('#entry').focus();
 		}
 
-		if (+entry <= 0) {
+		if (+number <= 0) {
 			alert ("Your number must be positive!");
 			$('#entry').val('');
 			$('#entry').focus();
